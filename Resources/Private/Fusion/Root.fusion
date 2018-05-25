@@ -1,0 +1,30 @@
+include: 'Prototypes/*'
+
+prototype(Neos.Neos:Page) {
+  head {
+    stylesheets {
+      cookieconsent = Neos.Fusion:Tag {
+        tagName = 'link'
+        attributes {
+          href = '//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css'
+          rel = 'stylesheet'
+          type = 'text/css'
+        }
+
+        @if.includeCss = ${Configuration.setting('Soee.CookieConsent.includeCss') == true ? true:false}
+      }
+    }
+
+    javascripts {
+      cookieconsent = Neos.Fusion:Tag {
+        tagName = 'script'
+        attributes {
+          src = '//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js'
+          defer = true
+        }
+
+        @if.includeJavaScript = ${Configuration.setting('Soee.CookieConsent.includeJavaScript') == true ? true:false}
+      }
+    }
+  }
+}

@@ -1,0 +1,175 @@
+'Soee.CookieConsent:Consent':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    icon: 'icon-gavel'
+    label: 'i18n'
+    inspector:
+      groups:
+        consent:
+          label: 'i18n'
+          position: 10
+  properties:
+    message:
+      type: string
+      defaultValue: 'This website uses cookies to ensure you get the best experience on our website.'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 20
+          editor: 'Neos.Neos/Inspector/Editors/TextAreaEditor'
+          editorOptions:
+            rows: 3
+      validation:
+        Neos.Neos/Validation/StringValidator: []
+        Neos.Neos/Validation/NotEmptyValidator: []
+    policyLinkText:
+      type: string
+      defaultValue: 'Learn more'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 30
+      validation:
+        Neos.Neos/Validation/StringValidator: []
+        Neos.Neos/Validation/NotEmptyValidator: []
+    policyLink:
+      type: string
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 40
+          editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
+    dismissButtonText:
+      type: string
+      defaultValue: 'Got it!'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 50
+      validation:
+        Neos.Neos/Validation/StringValidator: []
+        Neos.Neos/Validation/NotEmptyValidator: []
+    allowButtonText:
+      type: string
+      defaultValue: 'Allow cookies'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 60
+      validation:
+        Neos.Neos/Validation/StringValidator: []
+        Neos.Neos/Validation/NotEmptyValidator: []
+    denyButtonText:
+      type: string
+      defaultValue: 'Decline'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 70
+      validation:
+        Neos.Neos/Validation/StringValidator: []
+        Neos.Neos/Validation/NotEmptyValidator: []
+    type:
+      type: string
+      defaultValue: 'info'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 80
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              info:
+                label: 'i18n'
+              opt-out:
+                label: 'i18n'
+              opt-in:
+                label: 'i18n'
+      validation:
+        Neos.Neos/Validation/NotEmptyValidator: []
+        Neos.Neos/Validation/StringValidator: []
+    position:
+      type: string
+      defaultValue: 'bottom'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 90
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              top:
+                label: 'i18n'
+              bottom:
+                label: 'i18n'
+              bottom-left:
+                label: 'i18n'
+              bottom-right:
+                label: 'i18n'
+      validation:
+        Neos.Neos/Validation/NotEmptyValidator: []
+        Neos.Neos/Validation/StringValidator: []
+    static:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 100
+      validation:
+        Neos.Neos/Validation/BooleanValueValidator: []
+    layout:
+      type: string
+      defaultValue: 'block'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 110
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              block:
+                label: 'i18n'
+              classic:
+                label: 'i18n'
+              edgeless:
+                label: 'i18n'
+              wire:
+                label: 'i18n'
+      validation:
+        Neos.Neos/Validation/NotEmptyValidator: []
+        Neos.Neos/Validation/StringValidator: []
+    palette:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'consent'
+          position: 120
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            dataSourceIdentifier: 'soee-cookieconsent-palettes'

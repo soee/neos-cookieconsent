@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="Soee.CookieConsent" source-language="en" target-language="pl" datatype="plaintext">
+		<body>
+
+			<trans-unit id="palettes.black-yellow" xml:space="preserve">
+				<source>black - yellow</source>
+				<target xml:lang="pl" state="translated">czarny - zółty</target>
+			</trans-unit>
+			<trans-unit id="palettes.aquamarine-blue" xml:space="preserve">
+				<source>aquamarine - blue</source>
+				<target xml:lang="pl" state="translated">akwamaryn - niebieski</target>
+			</trans-unit>
+			<trans-unit id="palettes.prussian-blue" xml:space="preserve">
+				<source>prussian blue - blue</source>
+				<target xml:lang="pl" state="translated">błękit pruski - niebieski</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

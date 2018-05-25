@@ -1,0 +1,41 @@
+prototype(Soee.CookieConsent:Consent) < prototype(Neos.Fusion:Tag) {
+  tagName = 'script'
+
+  @context.settings = Neos.Fusion:RawArray {
+    type = ${q(node).property('type') ? q(node).property('type'):'info'}
+    theme = ${q(node).property('layout') ? q(node).property('layout'):'block'}
+    position = ${q(node).property('position') ? q(node).property('position'):'bottom'}
+    static = ${q(node).property('static') ? 1:0}
+    content = Neos.Fusion:RawArray {
+      message = ${q(node).property('message')}
+      dismiss = ${q(node).property('dismissButtonText')}
+      allow = ${q(node).property('allowButtonText')}
+      deny = ${q(node).property('denyButtonText')}
+      link = ${q(node).property('policyLinkText')}
+      href = Neos.Neos:NodeUri {
+        node = ${q(node).property('policyLink')}
+        absolute = true
+
+        @if.linkIsSet = ${q(node).property('policyLink')}
+      }
+    }
+    palette = Neos.Fusion:RawArray {
+      popup = Neos.Fusion:RawArray {
+        background =  '#000'
+        text = '#0f0'
+      }
+      button = Neos.Fusion:RawArray {
+        background = 'transparent'
+        text = '#0f0'
+        border = '#0f0'
+      }
+    }
+  }
+
+  content = ${'
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise(' + Json.stringify(settings) + ')});
+  '}
+
+ // @if.inLiveWorkspace = ${node.context.workspaceName == 'live'}
+}

@@ -1,0 +1,38 @@
+{
+  "name": "soee/cookieconsent",
+  "type": "neos-plugin",
+  "description": "Integrates Cookie Consent - the most popular solution to the EU cookie law with Neos.",
+  "license": "GPL-3.0+",
+  "keywords": [
+    "soee",
+    "cookie",
+    "consent",
+    "law",
+    "eu",
+    "europe",
+    "javascript",
+    "neos",
+    "flow"
+  ],
+  "authors": [
+    {
+      "name": "Marcin Sągol",
+      "email": "marcin@soee.pl",
+      "homepage": "https://soee.pl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "neos/nodetypes": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Soee\\CookieConsent\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "Soee.CookieConsent"
+    }
+  }
+}
