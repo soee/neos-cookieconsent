@@ -8,9 +8,30 @@
 				<target xml:lang="pl" state="translated">Zgoda na ciasteczka</target>
 			</trans-unit>
 
+			<trans-unit id="tabs.palette" xml:space="preserve">
+				<source>Color palette</source>
+				<target xml:lang="pl" state="translated">Paleta kolorów</target>
+			</trans-unit>
+
 			<trans-unit id="groups.consent" xml:space="preserve">
 				<source>Cookie consent</source>
 				<target xml:lang="pl" state="translated">Zgoda na ciasteczka</target>
+			</trans-unit>
+			<trans-unit id="groups.palette" xml:space="preserve">
+				<source>Palette</source>
+				<target xml:lang="pl" state="translated">Paleta</target>
+			</trans-unit>
+			<trans-unit id="groups.popup" xml:space="preserve">
+				<source>Popup</source>
+				<target xml:lang="pl" state="translated">Popup</target>
+			</trans-unit>
+			<trans-unit id="groups.button" xml:space="preserve">
+				<source>Button</source>
+				<target xml:lang="pl" state="translated">Przycisk</target>
+			</trans-unit>
+			<trans-unit id="groups.highlight" xml:space="preserve">
+				<source>Highlight</source>
+				<target xml:lang="pl" state="translated">Podświetlenie</target>
 			</trans-unit>
 
 			<trans-unit id="properties.message" xml:space="preserve">
@@ -81,9 +102,46 @@
 				<source>Theme</source>
 				<target xml:lang="pl" state="translated">Motyw</target>
 			</trans-unit>
+
 			<trans-unit id="properties.palette" xml:space="preserve">
 				<source>Color palette</source>
 				<target xml:lang="pl" state="translated">Paleta kolorów</target>
+			</trans-unit>
+			<trans-unit id="properties.popupBackgroundColor" xml:space="preserve">
+				<source>Background color</source>
+				<target xml:lang="pl" state="translated">Kolor tła</target>
+			</trans-unit>
+			<trans-unit id="properties.popupTextColor" xml:space="preserve">
+				<source>Text color</source>
+				<target xml:lang="pl" state="translated">Kolor tekstu</target>
+			</trans-unit>
+			<trans-unit id="properties.popupLinkColor" xml:space="preserve">
+				<source>Link color</source>
+				<target xml:lang="pl" state="translated">Kolor linku</target>
+			</trans-unit>
+			<trans-unit id="properties.buttonBackgroundColor" xml:space="preserve">
+				<source>Background color</source>
+				<target xml:lang="pl" state="translated">Kolor tła</target>
+			</trans-unit>
+			<trans-unit id="properties.buttonTextColor" xml:space="preserve">
+				<source>Text color</source>
+				<target xml:lang="pl" state="translated">Kolor tekstu</target>
+			</trans-unit>
+			<trans-unit id="properties.buttonLinkColor" xml:space="preserve">
+				<source>Link color</source>
+				<target xml:lang="pl" state="translated">Kolor linku</target>
+			</trans-unit>
+			<trans-unit id="properties.highlightBackgroundColor" xml:space="preserve">
+				<source>Background color</source>
+				<target xml:lang="pl" state="translated">Kolor tła</target>
+			</trans-unit>
+			<trans-unit id="properties.highlightTextColor" xml:space="preserve">
+				<source>Text color</source>
+				<target xml:lang="pl" state="translated">Kolor tekstu</target>
+			</trans-unit>
+			<trans-unit id="properties.highlightLinkColor" xml:space="preserve">
+				<source>Link color</source>
+				<target xml:lang="pl" state="translated">Kolor linku</target>
 			</trans-unit>
 
 		</body>

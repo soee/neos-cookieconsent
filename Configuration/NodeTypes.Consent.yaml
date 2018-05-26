@@ -6,10 +6,31 @@
     icon: 'icon-gavel'
     label: 'i18n'
     inspector:
+      tabs:
+        palette:
+          label: 'i18n'
+          position: 15
+          icon: 'icon-paint-brush'
       groups:
         consent:
           label: 'i18n'
           position: 10
+        palette:
+          label: 'i18n'
+          tab: 'palette'
+          position: 10
+        popup:
+          label: 'i18n'
+          tab: 'palette'
+          position: 20
+        button:
+          label: 'i18n'
+          tab: 'palette'
+          position: 30
+        highlight:
+          label: 'i18n'
+          tab: 'palette'
+          position: 40
   properties:
     message:
       type: string
@@ -168,8 +189,107 @@
         label: 'i18n'
         reloadIfChanged: true
         inspector:
-          group: 'consent'
-          position: 120
+          group: 'palette'
+          position: 10
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             dataSourceIdentifier: 'soee-cookieconsent-palettes'
+    popupBackgroundColor:
+      type: string
+      defaultValue: null
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'popup'
+          position: 10
+      validation:
+        Soee.Validators/Validation/ColorValidator: []
+    popupTextColor:
+      type: string
+      defaultValue: null
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'popup'
+          position: 20
+      validation:
+        Soee.Validators/Validation/ColorValidator: []
+    popupLinkColor:
+      type: string
+      defaultValue: null
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'popup'
+          position: 30
+      validation:
+        Soee.Validators/Validation/ColorValidator: []
+    buttonBackgroundColor:
+      type: string
+      defaultValue: null
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'button'
+          position: 10
+      validation:
+        Soee.Validators/Validation/ColorValidator: []
+    buttonTextColor:
+      type: string
+      defaultValue: null
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'button'
+          position: 20
+      validation:
+        Soee.Validators/Validation/ColorValidator: []
+    buttonLinkColor:
+      type: string
+      defaultValue: null
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'button'
+          position: 30
+      validation:
+        Soee.Validators/Validation/ColorValidator: []
+    highlightBackgroundColor:
+      type: string
+      defaultValue: null
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'highlight'
+          position: 10
+      validation:
+        Soee.Validators/Validation/ColorValidator: []
+    highlightTextColor:
+      type: string
+      defaultValue: null
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'highlight'
+          position: 20
+      validation:
+        Soee.Validators/Validation/ColorValidator: []
+    highlightLinkColor:
+      type: string
+      defaultValue: null
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'highlight'
+          position: 30
+      validation:
+        Soee.Validators/Validation/ColorValidator: []
