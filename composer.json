@@ -23,7 +23,8 @@
     }
   ],
   "require": {
-    "neos/nodetypes": "*"
+    "neos/nodetypes": "*",
+    "soee/inspectoreditors": "*"
   },
   "autoload": {
     "psr-4": {
