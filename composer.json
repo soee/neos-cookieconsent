@@ -24,7 +24,7 @@
   ],
   "require": {
     "neos/nodetypes": "*",
-    "soee/inspectoreditors": "*"
+    "soee/inspectoreditors": "dev-master"
   },
   "autoload": {
     "psr-4": {
