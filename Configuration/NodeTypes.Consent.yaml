@@ -177,8 +177,6 @@
                 label: 'i18n'
               edgeless:
                 label: 'i18n'
-              wire:
-                label: 'i18n'
       validation:
         Neos.Neos/Validation/NotEmptyValidator: []
         Neos.Neos/Validation/StringValidator: []
