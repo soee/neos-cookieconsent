@@ -127,9 +127,9 @@
 				<source>Text color</source>
 				<target xml:lang="pl" state="translated">Kolor tekstu</target>
 			</trans-unit>
-			<trans-unit id="properties.buttonLinkColor" xml:space="preserve">
-				<source>Link color</source>
-				<target xml:lang="pl" state="translated">Kolor linku</target>
+			<trans-unit id="properties.buttonBorderColor" xml:space="preserve">
+				<source>Border color</source>
+				<target xml:lang="pl" >Kolor obrzeża</target>
 			</trans-unit>
 			<trans-unit id="properties.highlightBackgroundColor" xml:space="preserve">
 				<source>Background color</source>
@@ -139,9 +139,9 @@
 				<source>Text color</source>
 				<target xml:lang="pl" state="translated">Kolor tekstu</target>
 			</trans-unit>
-			<trans-unit id="properties.highlightLinkColor" xml:space="preserve">
-				<source>Link color</source>
-				<target xml:lang="pl" state="translated">Kolor linku</target>
+			<trans-unit id="properties.highlightBorderColor" xml:space="preserve">
+				<source>Border color</source>
+				<target xml:lang="pl" >Kolor obrzeża</target>
 			</trans-unit>
 
 		</body>

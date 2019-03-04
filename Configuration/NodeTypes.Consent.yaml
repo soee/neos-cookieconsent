@@ -253,7 +253,7 @@
           editor: 'Soee.InspectorEditors/ColorPickerEditor'
       validation:
         Soee.Validators/Validation/ColorValidator: []
-    buttonLinkColor:
+    buttonBorderColor:
       type: string
       defaultValue: null
       ui:
@@ -289,7 +289,7 @@
           editor: 'Soee.InspectorEditors/ColorPickerEditor'
       validation:
         Soee.Validators/Validation/ColorValidator: []
-    highlightLinkColor:
+    highlightBorderColor:
       type: string
       defaultValue: null
       ui:

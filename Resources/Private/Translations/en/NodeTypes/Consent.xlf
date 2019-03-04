@@ -106,8 +106,8 @@
 			<trans-unit id="properties.buttonTextColor" xml:space="preserve">
 				<source>Text color</source>
 			</trans-unit>
-			<trans-unit id="properties.buttonLinkColor" xml:space="preserve">
-				<source>Link color</source>
+			<trans-unit id="properties.buttonBorderColor" xml:space="preserve">
+				<source>Border color</source>
 			</trans-unit>
 			<trans-unit id="properties.highlightBackgroundColor" xml:space="preserve">
 				<source>Background color</source>
@@ -115,8 +115,8 @@
 			<trans-unit id="properties.highlightTextColor" xml:space="preserve">
 				<source>Text color</source>
 			</trans-unit>
-			<trans-unit id="properties.highlightLinkColor" xml:space="preserve">
-				<source>Link color</source>
+			<trans-unit id="properties.highlightBorderColor" xml:space="preserve">
+				<source>Border color</source>
 			</trans-unit>
 
 		</body>

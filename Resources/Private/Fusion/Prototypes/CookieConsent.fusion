@@ -26,12 +26,12 @@ prototype(Soee.CookieConsent:Consent) < prototype(Neos.Fusion:Tag) {
       button = Neos.Fusion:RawArray {
         background =  ${selectedPalette.button.background || q(node).property('buttonBackgroundColor') || 'transparent'}
         text =  ${selectedPalette.button.text || q(node).property('buttonTextColor') || '#0f0'}
-        border =  ${selectedPalette.button.border || q(node).property('buttonLinkColor') || '#0f0'}
+        border =  ${selectedPalette.button.border || q(node).property('buttonBorderColor') || '#0f0'}
       }
       highlight = Neos.Fusion:RawArray {
         background =  ${selectedPalette.highlight.background || q(node).property('highlightBackgroundColor') || 'transparent'}
         text =  ${selectedPalette.highlight.text || q(node).property('highlightTextColor') || '#0f0'}
-        border =  ${selectedPalette.highlight.border || q(node).property('highlightLinkColor') || '#0f0'}
+        border =  ${selectedPalette.highlight.border || q(node).property('highlightBorderColor') || '#0f0'}
       }
     }
   }
