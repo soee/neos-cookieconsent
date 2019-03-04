@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="Soee.CookieConsent" source-language="en" target-language="de" datatype="plaintext">
+		<body>
+
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>Cookie Consent</source>
+				<target state="translated">Cookie-Hinweis</target>
+			</trans-unit>
+
+			<trans-unit id="tabs.palette" xml:space="preserve">
+				<source>Color palette</source>
+				<target state="translated">Farbpalette</target>
+			</trans-unit>
+
+			<trans-unit id="groups.consent" xml:space="preserve">
+				<source>Cookie consent</source>
+				<target state="translated">Cookie-Hinweis</target>
+			</trans-unit>
+			<trans-unit id="groups.palette" xml:space="preserve">
+				<source>Palette</source>
+				<target state="translated">Palette</target>
+			</trans-unit>
+			<trans-unit id="groups.popup" xml:space="preserve">
+				<source>Popup</source>
+				<target state="translated">Popup</target>
+			</trans-unit>
+			<trans-unit id="groups.button" xml:space="preserve">
+				<source>Button</source>
+				<target state="translated">Button</target>
+			</trans-unit>
+			<trans-unit id="groups.highlight" xml:space="preserve">
+				<source>Highlight</source>
+				<target state="translated">Highlight</target>
+			</trans-unit>
+
+			<trans-unit id="properties.message" xml:space="preserve">
+				<source>Message</source>
+				<target state="translated">Text</target>
+			</trans-unit>
+			<trans-unit id="properties.dismissButtonText" xml:space="preserve">
+				<source>Button text</source>
+				<target state="translated">Buttonbeschriftung</target>
+			</trans-unit>
+			<trans-unit id="properties.allowButtonText" xml:space="preserve">
+				<source>Allow button text</source>
+				<target state="translated">Buttonbeschriftung anzeigen</target>
+			</trans-unit>
+			<trans-unit id="properties.denyButtonText" xml:space="preserve">
+				<source>Deny button text</source>
+				<target state="translated">"Ablehnen" Buttonbeschriftung</target>
+			</trans-unit>
+			<trans-unit id="properties.policyLinkText" xml:space="preserve">
+				<source>Policy link text</source>
+				<target state="translated">Datenschutzlink-Text</target>
+			</trans-unit>
+			<trans-unit id="properties.policyLink" xml:space="preserve">
+				<source>Policy page link</source>
+				<target state="translated">Datenschutzlink-Seite</target>
+			</trans-unit>
+			<trans-unit id="properties.type" xml:space="preserve">
+				<source>Type</source>
+				<target state="translated">Typ</target>
+			</trans-unit>
+			<trans-unit id="properties.type.selectBoxEditor.values.info" xml:space="preserve">
+				<source>info</source>
+				<target state="translated">info</target>
+			</trans-unit>
+			<trans-unit id="properties.type.selectBoxEditor.values.opt-in" xml:space="preserve">
+				<source>opt-in</source>
+				<target state="translated">opt-in</target>
+			</trans-unit>
+			<trans-unit id="properties.type.selectBoxEditor.values.opt-out" xml:space="preserve">
+				<source>opt-out</source>
+				<target state="translated">opt-out</target>
+			</trans-unit>
+			<trans-unit id="properties.position" xml:space="preserve">
+				<source>Position</source>
+				<target state="translated">Position</target>
+			</trans-unit>
+			<trans-unit id="properties.position.selectBoxEditor.values.top" xml:space="preserve">
+				<source>top</source>
+				<target state="translated">oben</target>
+			</trans-unit>
+			<trans-unit id="properties.position.selectBoxEditor.values.bottom" xml:space="preserve">
+				<source>bottom</source>
+				<target state="translated">unten</target>
+			</trans-unit>
+			<trans-unit id="properties.position.selectBoxEditor.values.bottom-left" xml:space="preserve">
+				<source>bottom left</source>
+				<target state="translated">unten links</target>
+			</trans-unit>
+			<trans-unit id="properties.position.selectBoxEditor.values.bottom-right" xml:space="preserve">
+				<source>bottom right</source>
+				<target state="translated">unten rechts</target>
+			</trans-unit>
+			<trans-unit id="properties.static" xml:space="preserve">
+				<source>Static</source>
+				<target state="translated">Statisch</target>
+			</trans-unit>
+			<trans-unit id="properties.layout" xml:space="preserve">
+				<source>Layout</source>
+				<target state="translated">Darstellung</target>
+			</trans-unit>
+			<trans-unit id="properties.layout.selectBoxEditor.values.block">
+				<source>Block</source>
+				<target>Block</target>
+			</trans-unit>
+			<trans-unit id="properties.layout.selectBoxEditor.values.classic">
+				<source>Classic</source>
+				<target>abgerundeter Button</target>
+			</trans-unit>
+			<trans-unit id="properties.layout.selectBoxEditor.values.edgeless">
+				<source>Without edges</source>
+				<target>Kantenlos</target>
+			</trans-unit>
+
+			<trans-unit id="properties.palette" xml:space="preserve">
+				<source>Color palette</source>
+				<target state="translated">Farbpalette</target>
+			</trans-unit>
+			<trans-unit id="properties.popupBackgroundColor" xml:space="preserve">
+				<source>Background color</source>
+				<target state="translated">Hintergrundfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.popupTextColor" xml:space="preserve">
+				<source>Text color</source>
+				<target state="translated">Textfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.popupLinkColor" xml:space="preserve">
+				<source>Link color</source>
+				<target state="translated">Linkfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.buttonBackgroundColor" xml:space="preserve">
+				<source>Background color</source>
+				<target state="translated">Hintergrundfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.buttonTextColor" xml:space="preserve">
+				<source>Text color</source>
+				<target state="translated">Textfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.buttonLinkColor" xml:space="preserve">
+				<source>Border color</source>
+				<target state="translated">Rahmenfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.highlightBackgroundColor" xml:space="preserve">
+				<source>Background color</source>
+				<target state="translated">Hintergrundfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.highlightTextColor" xml:space="preserve">
+				<source>Text color</source>
+				<target state="translated">Textfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.highlightLinkColor" xml:space="preserve">
+				<source>Border color</source>
+				<target state="translated">Rahmenfarbe</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
