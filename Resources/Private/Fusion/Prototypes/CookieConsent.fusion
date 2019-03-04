@@ -12,12 +12,9 @@ prototype(Soee.CookieConsent:Consent) < prototype(Neos.Fusion:Tag) {
       allow = ${q(node).property('allowButtonText')}
       deny = ${q(node).property('denyButtonText')}
       link = ${q(node).property('policyLinkText')}
-      href = Neos.Neos:NodeUri {
-        node = ${q(node).property('policyLink')}
-        absolute = true
-
-        @if.linkIsSet = ${q(node).property('policyLink')}
-      }
+      href = ${q(node).property('policyLink')}
+      href.@process.convertUris = Neos.Neos:ConvertUris
+      href.@if.linkIsSet = ${q(node).property('policyLink')}
     }
     palette = Neos.Fusion:RawArray {
       popup = Neos.Fusion:RawArray {
