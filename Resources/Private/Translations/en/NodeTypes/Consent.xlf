@@ -3,7 +3,121 @@
 	<file original="" product-name="Soee.CookieConsent" source-language="en" datatype="plaintext">
 		<body>
 
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>Cookie Consent</source>
+			</trans-unit>
 
+			<trans-unit id="tabs.palette" xml:space="preserve">
+				<source>Color palette</source>
+			</trans-unit>
+
+			<trans-unit id="groups.consent" xml:space="preserve">
+				<source>Cookie consent</source>
+			</trans-unit>
+			<trans-unit id="groups.palette" xml:space="preserve">
+				<source>Palette</source>
+			</trans-unit>
+			<trans-unit id="groups.popup" xml:space="preserve">
+				<source>Popup</source>
+			</trans-unit>
+			<trans-unit id="groups.button" xml:space="preserve">
+				<source>Button</source>
+			</trans-unit>
+			<trans-unit id="groups.highlight" xml:space="preserve">
+				<source>Highlight</source>
+			</trans-unit>
+
+			<trans-unit id="properties.message" xml:space="preserve">
+				<source>Message</source>
+			</trans-unit>
+			<trans-unit id="properties.dismissButtonText" xml:space="preserve">
+				<source>Button text</source>
+			</trans-unit>
+			<trans-unit id="properties.allowButtonText" xml:space="preserve">
+				<source>Allow button text</source>
+			</trans-unit>
+			<trans-unit id="properties.denyButtonText" xml:space="preserve">
+				<source>Deny button text</source>
+			</trans-unit>
+			<trans-unit id="properties.policyLinkText" xml:space="preserve">
+				<source>Policy link text</source>
+			</trans-unit>
+			<trans-unit id="properties.policyLink" xml:space="preserve">
+				<source>Policy page link</source>
+			</trans-unit>
+			<trans-unit id="properties.type" xml:space="preserve">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="properties.type.selectBoxEditor.values.info" xml:space="preserve">
+				<source>info</source>
+			</trans-unit>
+			<trans-unit id="properties.type.selectBoxEditor.values.opt-in" xml:space="preserve">
+				<source>opt-in</source>
+			</trans-unit>
+			<trans-unit id="properties.type.selectBoxEditor.values.opt-out" xml:space="preserve">
+				<source>opt-out</source>
+			</trans-unit>
+			<trans-unit id="properties.position" xml:space="preserve">
+				<source>Position</source>
+			</trans-unit>
+			<trans-unit id="properties.position.selectBoxEditor.values.top" xml:space="preserve">
+				<source>top</source>
+			</trans-unit>
+			<trans-unit id="properties.position.selectBoxEditor.values.bottom" xml:space="preserve">
+				<source>bottom</source>
+			</trans-unit>
+			<trans-unit id="properties.position.selectBoxEditor.values.bottom-left" xml:space="preserve">
+				<source>bottom left</source>
+			</trans-unit>
+			<trans-unit id="properties.position.selectBoxEditor.values.bottom-right" xml:space="preserve">
+				<source>bottom right</source>
+			</trans-unit>
+			<trans-unit id="properties.static" xml:space="preserve">
+				<source>Static</source>
+			</trans-unit>
+			<trans-unit id="properties.layout" xml:space="preserve">
+				<source>Layout</source>
+			</trans-unit>
+			<trans-unit id="properties.layout.selectBoxEditor.values.block">
+				<source>Block</source>
+			</trans-unit>
+			<trans-unit id="properties.layout.selectBoxEditor.values.classic">
+				<source>Classic</source>
+			</trans-unit>
+			<trans-unit id="properties.layout.selectBoxEditor.values.edgeless">
+				<source>Without edges</source>
+			</trans-unit>
+
+			<trans-unit id="properties.palette" xml:space="preserve">
+				<source>Color palette</source>
+			</trans-unit>
+			<trans-unit id="properties.popupBackgroundColor" xml:space="preserve">
+				<source>Background color</source>
+			</trans-unit>
+			<trans-unit id="properties.popupTextColor" xml:space="preserve">
+				<source>Text color</source>
+			</trans-unit>
+			<trans-unit id="properties.popupLinkColor" xml:space="preserve">
+				<source>Link color</source>
+			</trans-unit>
+			<trans-unit id="properties.buttonBackgroundColor" xml:space="preserve">
+				<source>Background color</source>
+			</trans-unit>
+			<trans-unit id="properties.buttonTextColor" xml:space="preserve">
+				<source>Text color</source>
+			</trans-unit>
+			<trans-unit id="properties.buttonBorderColor" xml:space="preserve">
+				<source>Border color</source>
+			</trans-unit>
+			<trans-unit id="properties.highlightBackgroundColor" xml:space="preserve">
+				<source>Background color</source>
+			</trans-unit>
+			<trans-unit id="properties.highlightTextColor" xml:space="preserve">
+				<source>Text color</source>
+			</trans-unit>
+			<trans-unit id="properties.highlightBorderColor" xml:space="preserve">
+				<source>Border color</source>
+			</trans-unit>
 
 		</body>
 	</file>

@@ -2,6 +2,7 @@ prototype(Soee.CookieConsent:Consent) < prototype(Neos.Fusion:Tag) {
   tagName = 'script'
 
   @context.settings = Neos.Fusion:RawArray {
+    @context.selectedPalette = ${q(node).property('palette') ? Configuration.setting('Soee.CookieConsent.palettes.' + q(node).property('palette') + '.colors') : null}
     type = ${q(node).property('type') ? q(node).property('type'):'info'}
     theme = ${q(node).property('layout') ? q(node).property('layout'):'block'}
     position = ${q(node).property('position') ? q(node).property('position'):'bottom'}
@@ -12,22 +13,25 @@ prototype(Soee.CookieConsent:Consent) < prototype(Neos.Fusion:Tag) {
       allow = ${q(node).property('allowButtonText')}
       deny = ${q(node).property('denyButtonText')}
       link = ${q(node).property('policyLinkText')}
-      href = Neos.Neos:NodeUri {
-        node = ${q(node).property('policyLink')}
-        absolute = true
-
-        @if.linkIsSet = ${q(node).property('policyLink')}
-      }
+      href = ${q(node).property('policyLink')}
+      href.@process.convertUris = Neos.Neos:ConvertUris
+      href.@if.linkIsSet = ${q(node).property('policyLink')}
     }
     palette = Neos.Fusion:RawArray {
       popup = Neos.Fusion:RawArray {
-        background =  '#000'
-        text = '#0f0'
+        background =  ${selectedPalette.popup.background || q(node).property('popupBackgroundColor') || '#000'}
+        text =  ${selectedPalette.popup.text || q(node).property('popupTextColor') || '#0f0'}
+        link =  ${selectedPalette.popup.link || q(node).property('popupLinkColor') || '#0f0'}
       }
       button = Neos.Fusion:RawArray {
-        background = 'transparent'
-        text = '#0f0'
-        border = '#0f0'
+        background =  ${selectedPalette.button.background || q(node).property('buttonBackgroundColor') || 'transparent'}
+        text =  ${selectedPalette.button.text || q(node).property('buttonTextColor') || '#0f0'}
+        border =  ${selectedPalette.button.border || q(node).property('buttonBorderColor') || '#0f0'}
+      }
+      highlight = Neos.Fusion:RawArray {
+        background =  ${selectedPalette.highlight.background || q(node).property('highlightBackgroundColor') || 'transparent'}
+        text =  ${selectedPalette.highlight.text || q(node).property('highlightTextColor') || '#0f0'}
+        border =  ${selectedPalette.highlight.border || q(node).property('highlightBorderColor') || '#0f0'}
       }
     }
   }

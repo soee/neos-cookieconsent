@@ -177,8 +177,6 @@
                 label: 'i18n'
               edgeless:
                 label: 'i18n'
-              wire:
-                label: 'i18n'
       validation:
         Neos.Neos/Validation/NotEmptyValidator: []
         Neos.Neos/Validation/StringValidator: []
@@ -194,6 +192,7 @@
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             dataSourceIdentifier: 'soee-cookieconsent-palettes'
+            allowEmpty: true
     popupBackgroundColor:
       type: string
       defaultValue: null
@@ -254,7 +253,7 @@
           editor: 'Soee.InspectorEditors/ColorPickerEditor'
       validation:
         Soee.Validators/Validation/ColorValidator: []
-    buttonLinkColor:
+    buttonBorderColor:
       type: string
       defaultValue: null
       ui:
@@ -290,7 +289,7 @@
           editor: 'Soee.InspectorEditors/ColorPickerEditor'
       validation:
         Soee.Validators/Validation/ColorValidator: []
-    highlightLinkColor:
+    highlightBorderColor:
       type: string
       defaultValue: null
       ui:
