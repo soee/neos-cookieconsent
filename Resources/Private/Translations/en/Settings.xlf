@@ -6,6 +6,27 @@
 			<trans-unit id="palettes.black-yellow" xml:space="preserve">
 				<source>black - yellow</source>
 			</trans-unit>
+			<trans-unit id="palettes.aquamarine-blue" xml:space="preserve">
+				<source>aquamarine - blue</source>
+			</trans-unit>
+			<trans-unit id="palettes.prussian-blue" xml:space="preserve">
+				<source>prussian blue - blue</source>
+			</trans-unit>
+			<trans-unit id="palettes.black-green">
+				<source>black - green</source>
+			</trans-unit>
+			<trans-unit id="palettes.blue-purple">
+				<source>blue - purple</source>
+			</trans-unit>
+			<trans-unit id="palettes.cyclamen-violet">
+				<source>cyclam - violet</source>
+			</trans-unit>
+			<trans-unit id="palettes.blue-white">
+				<source>blue - white</source>
+			</trans-unit>
+			<trans-unit id="palettes.sanguine-red">
+				<source>sanguine-red</source>
+			</trans-unit>
 
 		</body>
 	</file>
