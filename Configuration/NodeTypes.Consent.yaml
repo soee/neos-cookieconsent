@@ -192,6 +192,7 @@
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             dataSourceIdentifier: 'soee-cookieconsent-palettes'
+            allowEmpty: true
     popupBackgroundColor:
       type: string
       defaultValue: null
